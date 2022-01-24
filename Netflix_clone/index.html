@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - Assistir series e filmes online</title>
+
+<!--fonte netflix-->
+<style>@import url('http://fonts.cdnfonts.com/css/bebas-neue');</style>
+
+<!--css principal-->
+<link rel="stylesheet" href="./style/main.css">
+
+<!--responsividade-->
+<link rel="stylesheet" href="style/responsive.css">
+
+<!--owl css-->
+<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+<!--modal mais informações-->
+<link rel="stylesheet" href="style/modal.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Minha lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Velozes e Furiosos</h3>
+                <p class="descricao">Brian O'Conner é um policial que se infiltra no submundo dos rachas de rua para investigar uma série de furtos. Enquanto tenta ganhar o respeito e a confiança do líder Dom Toretto, ele corre o risco de ser desmascarado.</p>
+               
+                <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=NnDGWyfP7q4&ab_channel=UniversalPicturesBrasil" target="_blank" rel="external">
+
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>Assistir</button>
+                    </a>
+
+                    <button role="button" class="botao2">
+                        <i class="fas fa-info-circle"></i> Mais informações</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/fast-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/2fast-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/tokyodrift-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/curta-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fast4-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fast5-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fast6-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fast7-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fast8-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/fast9-poster.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/hobseshaw-poster.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+     <!--modal-->
+     <div id="mais-informacoes" class="informacoes">
+        <div class="modal">
+            <button class="fechar">X</button>
+
+            <h3 class="subtitulo">Curiosidade:</h3>
+            <p class="sinopse">Sem Vin Diesel... 
+                Quando começou a trabalhar em uma sequência para Velozes e Furiosos a Universal Pictures encomendou dois roteiros para o novo filme, um com o personagem de Vin Diesel e outro sem o personagem. O ator resolveu não participar de + Velozes + Furiosos por considerar que o final do primeiro filme não permitia um retorno lógico de seu personagem à trama</p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/44201bf09c.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
